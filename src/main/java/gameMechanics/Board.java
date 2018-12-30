@@ -1,6 +1,7 @@
 package gameMechanics;
 
 
+import gameMechanics.pieces.Piece;
 import gameMechanics.utils.PositionTranslator;
 
 import java.util.ArrayList;
@@ -12,11 +13,17 @@ public class Board {
     final static int BOARDSIZE = BOARDLENGTH * BOARDLENGTH;
 
     private Field[][] boardGrid = new Field[BOARDLENGTH][BOARDLENGTH];
+    private List<Field> fieldList = new ArrayList<>();
     private List<Piece> activePieces = new ArrayList<>();
+    private List<Piece> activeWhitePieces = new ArrayList<>();
+    private List<Piece> activeBlackPieces = new ArrayList<>();
     private List<Piece> benchedPieces = new ArrayList<>();
 
-    public Board(){
+    public Board(List<Piece> initialPosition){
         initializeBoardGrid();
+        initializeFieldList();
+        setBoard(initialPosition);
+        updateActivePieces();
     }
 
     private void initializeBoardGrid() {
@@ -36,6 +43,14 @@ public class Board {
         return emptyField;
     }
 
+    private void initializeFieldList(){
+        for (int column = 0; column < BOARDLENGTH; column++) {
+            for (int row = 0; row < BOARDLENGTH; row++) {
+                fieldList.add(boardGrid[column][row]);
+            }
+        }
+    }
+
     public Field getField(Position algebraicNotation) {
         PositionTranslator translator = new PositionTranslator(algebraicNotation, null, null, null);
         return boardGrid[translator.getColumn()][translator.getRow()];
@@ -51,32 +66,69 @@ public class Board {
     }
 
     public void putPieceOnField(Piece piece){
-        PositionTranslator setBoardTranslator = new PositionTranslator(piece.getPosition(),null,null,null);
-        boardGrid[setBoardTranslator.getColumn()][setBoardTranslator.getRow()].setIsOccupiedBy(piece);
+        PositionTranslator translator = new PositionTranslator(piece.getPosition(),null,null,null);
+        Field field = boardGrid[translator.getColumn()][translator.getRow()];
+        field.setIsOccupiedBy(piece);
     }
 
+    public void removePieceFromField(Position fieldToClear){
+        PositionTranslator translator = new PositionTranslator(fieldToClear,null,null,null);
+        Field field = boardGrid[translator.getColumn()][translator.getRow()];
+        field.setIsOccupiedBy(null);
+    }
 
-
+    public void setBoard(List<Piece> boardSetUpList){
+        boardSetUpList.forEach(this::putPieceOnField);
+    }
 
     public void updateActivePieces(){
 
-                List<Field> fieldList = this.getListOfFieldsOnBoard();
-        this.getListOfFieldsOnBoard()
-                .stream()
-                .map(field -> field.getIsOccupiedBy())
-                .forEach(piece ->
+        activePieces.clear();
+
+        fieldList.stream()
+                 .map(field -> field.getIsOccupiedBy())
+                 .forEach(piece ->
                         {if (piece != null){
                             activePieces.add(piece);
+                            }
                         }
-                        }
-                );
+                 );
+
+        activeWhitePieces.clear();
+        activeBlackPieces.clear();
+
+        activePieces.forEach(piece ->
+                            {if (piece.getAlliance() == Alliance.WHITE){
+                                activeWhitePieces.add(piece);
+                                }
+                                else{
+                                activeBlackPieces.add(piece);
+                                }
+                            }
+                     );
+    }
+
+    public List<Piece> getActivePieces() {
         return activePieces;
     }
 
+    public List<Piece> getActiveWhitePieces() {
+        return activeWhitePieces;
+    }
 
+    public List<Piece> getActiveBlackPieces() {
+        return activeBlackPieces;
+    }
 
+    public List<Piece> getBenchedPieces() {
+        return benchedPieces;
+    }
 
+    public void setBenchedPieces(List<Piece> benchedPieces) {
+        this.benchedPieces = benchedPieces;
+    }
 
-
-
+    public void addBenchedPiece(Piece piece){
+        this.benchedPieces.add(piece);
+    }
 }
