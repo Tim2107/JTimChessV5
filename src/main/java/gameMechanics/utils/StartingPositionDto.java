@@ -1,6 +1,6 @@
 package gameMechanics.utils;
 
-import gameMechanics.pieces.Piece;
+import gameMechanics.pieces.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,38 +13,38 @@ public class StartingPositionDto {
 
    private List<Piece> initialPiecePlacement = new ArrayList<>();
 
-   private final Piece whiteKing = new Piece(KING, WHITE, D1);
-   private final Piece blackKing = new Piece(KING, BLACK, D8);
-   private final Piece whiteQueen = new Piece(QUEEN, WHITE, E1);
-   private final Piece blackQueen = new Piece(QUEEN, BLACK, E8);
-   private final Piece whiteRook1 = new Piece(ROOK, WHITE, A1);
-   private final Piece whiteRook2 = new Piece(ROOK, WHITE, H1);
-   private final Piece blackRook1 = new Piece(ROOK, BLACK, A8);
-   private final Piece blackRook2 = new Piece(ROOK, BLACK, H8);
-   private final Piece whiteKnight1 = new Piece(KNIGHT, WHITE, B1);
-   private final Piece whiteKnight2 = new Piece(KNIGHT, WHITE, G1);
-   private final Piece blackKnight1 = new Piece(KNIGHT, BLACK, B8);
-   private final Piece blackKnight2 = new Piece(KNIGHT, BLACK, G8);
-   private final Piece whiteBishop1 = new Piece(BISHOP, WHITE, C1);
-   private final Piece whiteBishop2 = new Piece(BISHOP, WHITE, F1);
-   private final Piece blackBishop1 = new Piece(BISHOP,BLACK,C8);
-   private final Piece blackBishop2 = new Piece(BISHOP,BLACK,F8);
-   private final Piece whitePawn1 = new Piece(PAWN,WHITE,A2 );
-   private final Piece whitePawn2 = new Piece(PAWN,WHITE,B2);
-   private final Piece whitePawn3 = new Piece(PAWN,WHITE,C2);
-   private final Piece whitePawn4 = new Piece(PAWN,WHITE,D2);
-   private final Piece whitePawn5 = new Piece(PAWN,WHITE,E2);
-   private final Piece whitePawn6 = new Piece(PAWN,WHITE,F2);
-   private final Piece whitePawn7 = new Piece(PAWN,WHITE,G2);
-   private final Piece whitePawn8 = new Piece(PAWN,WHITE,H2);
-   private final Piece blackPawn1 = new Piece(PAWN,BLACK,A7);
-   private final Piece blackPawn2 = new Piece(PAWN,BLACK,B7);
-   private final Piece blackPawn3 = new Piece(PAWN,BLACK,C7);
-   private final Piece blackPawn4 = new Piece(PAWN,BLACK,D7);
-   private final Piece blackPawn5 = new Piece(PAWN,BLACK,E7);
-   private final Piece blackPawn6 = new Piece(PAWN,BLACK,F7);
-   private final Piece blackPawn7 = new Piece(PAWN,BLACK,G7);
-   private final Piece blackPawn8 = new Piece(PAWN,BLACK,H7);
+   private final Piece whiteKing = new King(WHITE, D1);
+   private final Piece blackKing = new King(BLACK, D8);
+   private final Piece whiteQueen = new Queen(WHITE, E1);
+   private final Piece blackQueen = new Queen(BLACK, E8);
+   private final Piece whiteRook1 = new Rook(WHITE, A1);
+   private final Piece whiteRook2 = new Rook(WHITE, H1);
+   private final Piece blackRook1 = new Rook(BLACK, A8);
+   private final Piece blackRook2 = new Rook(BLACK, H8);
+   private final Piece whiteKnight1 = new Knight(WHITE, B1);
+   private final Piece whiteKnight2 = new Knight(WHITE, G1);
+   private final Piece blackKnight1 = new Knight(BLACK, B8);
+   private final Piece blackKnight2 = new Knight(BLACK, G8);
+   private final Piece whiteBishop1 = new Bishop(WHITE, C1);
+   private final Piece whiteBishop2 = new Bishop(WHITE, F1);
+   private final Piece blackBishop1 = new Bishop(BLACK,C8);
+   private final Piece blackBishop2 = new Bishop(BLACK,F8);
+   private final Piece whitePawn1 = new Pawn(WHITE,A2 );
+   private final Piece whitePawn2 = new Pawn(WHITE,B2);
+   private final Piece whitePawn3 = new Pawn(WHITE,C2);
+   private final Piece whitePawn4 = new Pawn(WHITE,D2);
+   private final Piece whitePawn5 = new Pawn(WHITE,E2);
+   private final Piece whitePawn6 = new Pawn(WHITE,F2);
+   private final Piece whitePawn7 = new Pawn(WHITE,G2);
+   private final Piece whitePawn8 = new Pawn(WHITE,H2);
+   private final Piece blackPawn1 = new Pawn(BLACK,A7);
+   private final Piece blackPawn2 = new Pawn(BLACK,B7);
+   private final Piece blackPawn3 = new Pawn(BLACK,C7);
+   private final Piece blackPawn4 = new Pawn(BLACK,D7);
+   private final Piece blackPawn5 = new Pawn(BLACK,E7);
+   private final Piece blackPawn6 = new Pawn(BLACK,F7);
+   private final Piece blackPawn7 = new Pawn(BLACK,G7);
+   private final Piece blackPawn8 = new Pawn(BLACK,H7);
 
    public StartingPositionDto(){
        initialPiecePlacement.add(whiteKing);

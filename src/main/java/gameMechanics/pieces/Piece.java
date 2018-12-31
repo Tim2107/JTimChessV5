@@ -1,8 +1,6 @@
 package gameMechanics.pieces;
 
-import gameMechanics.Alliance;
-import gameMechanics.Position;
-import gameMechanics.Type;
+import gameMechanics.*;
 
 import java.util.List;
 
@@ -40,4 +38,6 @@ public abstract class Piece {
     public void setPosition(Position position) {
         this.position = position;
     }
+
+    public abstract List<Move> calculateLegalMoves(Board board);
 }

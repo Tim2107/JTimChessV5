@@ -46,7 +46,7 @@ class BoardTest {
         List<Piece> activeWhitePieces = testBoard.getActiveWhitePieces();
         List<Piece> activeBlackPieces = testBoard.getActiveBlackPieces();
 
-        activePieces.forEach(piece -> System.out.println(piece.getAlliance() + " " +piece.getType() +" "+piece.getPosition()));
+        activePieces.forEach(piece -> System.out.println(piece.getAlliance() + " " + piece.getType() +" "+piece.getPosition()));
         System.out.println();
         activeWhitePieces.forEach(piece -> System.out.println(piece.getAlliance() + " " +piece.getType() +" "+piece.getPosition()));
         System.out.println();
