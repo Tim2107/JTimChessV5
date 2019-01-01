@@ -1,6 +1,7 @@
 package gameMechanics.pieces;
 
 import gameMechanics.*;
+import gameMechanics.moves.Move;
 
 import java.util.List;
 

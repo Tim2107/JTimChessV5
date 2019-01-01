@@ -9,8 +9,8 @@ import java.util.List;
 
 public class Board {
 
-    final static int BOARDLENGTH = 8;
-    final static int BOARDSIZE = BOARDLENGTH * BOARDLENGTH;
+    public final static int BOARDLENGTH = 8;
+    public final static int BOARDSIZE = BOARDLENGTH * BOARDLENGTH;
 
     private Field[][] boardGrid = new Field[BOARDLENGTH][BOARDLENGTH];
     private List<Field> fieldList = new ArrayList<>();

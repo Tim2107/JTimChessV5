@@ -12,12 +12,12 @@ public class RookAttackPattern extends AttackPatternBase implements AttackPatter
         int columnOfPosition = translator.getColumn();
         int rowOfPosition = translator.getRow();
 
-        for (int i = 0; i < 8; i++) {
-            if (i != rowOfPosition) {
-                grid[columnOfPosition][i] = alliance.indicator;
+        for (int fieldsToMark = 0; fieldsToMark < 8; fieldsToMark++) {
+            if (fieldsToMark != rowOfPosition) {
+                grid[columnOfPosition][fieldsToMark] = alliance.indicator;
             }
-            if (i != columnOfPosition) {
-                grid[i][rowOfPosition] = alliance.indicator;
+            if (fieldsToMark != columnOfPosition) {
+                grid[fieldsToMark][rowOfPosition] = alliance.indicator;
             }
         }
     }

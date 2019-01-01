@@ -1,20 +1,21 @@
 package gameMechanics.pieces;
 
 import gameMechanics.*;
+import gameMechanics.moves.Move;
 
 import java.util.List;
 
 public abstract class Piece {
 
-    private Type type;
-    private Alliance alliance;
-    private Position position;
+   Type type;
+   Alliance alliance;
+   Position position;
 
-    private List<Piece> isAttackedBy;
-    private List<Piece> isDefendedBy;
+   List<Piece> isAttackedBy;
+   List<Piece> isDefendedBy;
 
-    private int isAttackedCounter;
-    private int isDefendedCounter;
+   int isAttackedCounter;
+   int isDefendedCounter;
 
 
     public Piece(Type type, Alliance alliance, Position position){
