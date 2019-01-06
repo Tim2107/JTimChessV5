@@ -11,6 +11,8 @@ public abstract class Piece {
    Alliance alliance;
    Position position;
 
+   boolean isFirstMove;
+
    List<Piece> isAttackedBy;
    List<Piece> isDefendedBy;
 
@@ -22,6 +24,7 @@ public abstract class Piece {
         this.type = type;
         this.alliance = alliance;
         this.position = position;
+        this.isFirstMove = true;
     }
 
     public Type getType() {
@@ -41,4 +44,8 @@ public abstract class Piece {
     }
 
     public abstract List<Move> calculateLegalMoves(Board board);
+
+    public boolean isFirstMove() {
+        return isFirstMove;
+    }
 }
