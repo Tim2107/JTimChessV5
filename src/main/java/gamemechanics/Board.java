@@ -3,6 +3,8 @@ package gamemechanics;
 
 import gamemechanics.moves.Move;
 import gamemechanics.pieces.Piece;
+import gamemechanics.players.BlackPlayer;
+import gamemechanics.players.WhitePlayer;
 import gamemechanics.utils.PositionTranslator;
 
 import java.util.ArrayList;
@@ -12,6 +14,9 @@ public class Board {
 
     public final static int BOARDLENGTH = 8;
     public final static int BOARDSIZE = BOARDLENGTH * BOARDLENGTH;
+
+    WhitePlayer whitePlayer;
+    BlackPlayer blackPlayer;
 
     private Field[][] boardGrid = new Field[BOARDLENGTH][BOARDLENGTH];
     private List<Field> fieldList = new ArrayList<>();
@@ -25,6 +30,8 @@ public class Board {
         initializeFieldList();
         setBoard(initialPosition);
         updateActivePieces();
+        this.whitePlayer = new WhitePlayer(this, calculatePossibleMovesForAlliance(activeWhitePieces), calculatePossibleMovesForAlliance(activeBlackPieces));
+        this.blackPlayer = new BlackPlayer(this, calculatePossibleMovesForAlliance(activeWhitePieces), calculatePossibleMovesForAlliance(activeBlackPieces));
     }
 
     private void initializeBoardGrid() {
@@ -139,5 +146,13 @@ public class Board {
 
     public void addBenchedPiece(Piece piece){
         this.benchedPieces.add(piece);
+    }
+
+    public WhitePlayer getWhitePlayer() {
+        return this.whitePlayer;
+    }
+
+    public BlackPlayer getBlackPlayer() {
+        return this.blackPlayer;
     }
 }

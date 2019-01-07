@@ -2,58 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b74c0f-b271-4dc2-b606-24b5ada3c8c7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gamemechanics/players/BlackPlayer.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/Alliance.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/Arbiter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/Board.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/Field.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/MoveHistory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/Player.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/Position.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/Type.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/moves/CapturingMove.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/moves/Move.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/moves/NonCapturingMove.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/AttackPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/AttackPatternBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/AttackPatternFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/BishopAttackPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/KingAttackPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/KnightAttakPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/PawnAttackPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/QueenAttackPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/RookAttackPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/pieces/Bishop.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/pieces/King.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/pieces/Knight.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/pieces/Pawn.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/pieces/Piece.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/pieces/Queen.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/pieces/Rook.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/utils/PositionTranslator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameMechanics/utils/StartingPositionDto.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/BoardTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/FieldTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/patterns/BishopAttackPatternTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/patterns/KingAttackPatternTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/patterns/KnightAttakPatternTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/patterns/PawnAttackPatternTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/patterns/QueenAttackPatternTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/patterns/RookAttackPatternTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/pieces/BishopTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/pieces/KingTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/pieces/KnightTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/pieces/PawnTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/pieces/QueenTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/pieces/RookTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/testData/BishopTestDto.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/testData/KingTestDto.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/testData/KnightTestDto.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/testData/PawnTestDto.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/testData/QueenTestDto.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/testData/RookTestDto.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gameMechanics/utils/PositionTranslatorTest.java" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gamemechanics/players/MoveStatus.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gamemechanics/players/MoveTransition.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gamemechanics/Board.java" afterPath="$PROJECT_DIR$/src/main/java/gamemechanics/Board.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gamemechanics/players/Player.java" afterPath="$PROJECT_DIR$/src/main/java/gamemechanics/players/Player.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gamemechanics/players/WhitePlayer.java" afterPath="$PROJECT_DIR$/src/main/java/gamemechanics/players/WhitePlayer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,13 +41,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+            <state relative-caret-position="460">
+              <caret line="155" column="20" lean-forward="false" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
               <folding>
-                <element signature="method#Board#0;class#Board#0" expanded="false" />
                 <element signature="method#initializeBoardGrid#0;class#Board#0" expanded="false" />
                 <element signature="method#initializeField#0;class#Board#0" expanded="false" />
                 <element signature="method#initializeFieldList#0;class#Board#0" expanded="false" />
@@ -103,8 +55,12 @@
                 <element signature="method#putPieceOnField#0;class#Board#0" expanded="false" />
                 <element signature="method#removePieceFromField#0;class#Board#0" expanded="false" />
                 <element signature="method#updateActivePieces#0;class#Board#0" expanded="false" />
-                <element signature="e#3237#3399#0" expanded="false" />
-                <element signature="e#3521#3862#0" expanded="false" />
+                <element signature="e#3696#3858#0" expanded="false" />
+                <element signature="e#3980#4321#0" expanded="false" />
+                <element signature="e#5227#5228#0" expanded="true" />
+                <element signature="e#5266#5267#0" expanded="true" />
+                <element signature="e#5309#5310#0" expanded="true" />
+                <element signature="e#5348#5349#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,11 +69,43 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="308">
+              <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1207#1208#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveTransition.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/players/MoveTransition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/players/MoveStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,14 +129,14 @@
       <file leaf-file-name="WhitePlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/players/WhitePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="228">
+              <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,33 +168,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PawnTestDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gamemechanics/testData/PawnTestDto.java">
+      <file leaf-file-name="Piece.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/pieces/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueenTestDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gamemechanics/testData/QueenTestDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="86" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueenTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gamemechanics/pieces/QueenTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="16" column="7" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="24">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -233,9 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/ChessPatternFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/AttackPattern.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/AttackPatternBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/BishopAttackPattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/KingAttackPattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameMechanics/patterns/PawnAttackPattern.java" />
@@ -281,9 +244,12 @@
         <option value="$PROJECT_DIR$/src/main/java/gameMechanics/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/gamemechanics/player.java" />
         <option value="$PROJECT_DIR$/src/main/java/gamemechanics/WhitePlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gamemechanics/players/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/gamemechanics/players/BlackPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/gamemechanics/players/WhitePlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gamemechanics/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gamemechanics/players/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gamemechanics/players/MoveStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gamemechanics/players/MoveTransition.java" />
       </list>
     </option>
   </component>
@@ -441,11 +407,14 @@
       <recent name="gameMechanics" />
       <recent name="gameMechanics.utils" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gamemechanics.players" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="gameMechanics.utils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/gameMechanics" />
@@ -813,20 +782,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/utils/PositionTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gamemechanics/patterns/BishopAttackPatternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gamemechanics/patterns/KingAttackPatternTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1141,16 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/pieces/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-          <folding>
-            <element signature="e#957#958#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/patterns/PawnAttackPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1235,16 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/players/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/players/BlackPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1259,26 +1194,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/players/WhitePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="228">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+        <state relative-caret-position="460">
+          <caret line="155" column="20" lean-forward="false" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
           <folding>
-            <element signature="method#Board#0;class#Board#0" expanded="false" />
             <element signature="method#initializeBoardGrid#0;class#Board#0" expanded="false" />
             <element signature="method#initializeField#0;class#Board#0" expanded="false" />
             <element signature="method#initializeFieldList#0;class#Board#0" expanded="false" />
@@ -1287,8 +1229,50 @@
             <element signature="method#putPieceOnField#0;class#Board#0" expanded="false" />
             <element signature="method#removePieceFromField#0;class#Board#0" expanded="false" />
             <element signature="method#updateActivePieces#0;class#Board#0" expanded="false" />
-            <element signature="e#3237#3399#0" expanded="false" />
-            <element signature="e#3521#3862#0" expanded="false" />
+            <element signature="e#3696#3858#0" expanded="false" />
+            <element signature="e#3980#4321#0" expanded="false" />
+            <element signature="e#5227#5228#0" expanded="true" />
+            <element signature="e#5266#5267#0" expanded="true" />
+            <element signature="e#5309#5310#0" expanded="true" />
+            <element signature="e#5348#5349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/players/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/players/MoveStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gamemechanics/players/MoveTransition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

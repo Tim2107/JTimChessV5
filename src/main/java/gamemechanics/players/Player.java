@@ -35,4 +35,27 @@ public abstract class Player {
 
     public abstract List<Piece> getActivePieces();
     public abstract Alliance getAlliance();
+
+    public boolean isMoveLegal(Move move){
+        return this.legalMoves.contains(move);
+    }
+
+    public boolean isInCheck(){
+        return false;
+    }
+
+    public boolean isInCheckMate(){
+        return false;
+    }
+
+    public boolean isInStaleMate(){
+        return false;
+    }
+
+    public MoveTransition makeMove(Move move){
+        return null;
+    }
+
+
+
 }

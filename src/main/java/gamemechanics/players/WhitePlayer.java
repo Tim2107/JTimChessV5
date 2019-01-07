@@ -11,7 +11,7 @@ public class WhitePlayer extends Player{
 
    Alliance alliance = Alliance.WHITE;
 
-    WhitePlayer(Board board, List<Move> whiteStandardLegalMoves, List<Move> blackStandardLegalMoves) {
+   public WhitePlayer(Board board, List<Move> whiteStandardLegalMoves, List<Move> blackStandardLegalMoves) {
         super(board, whiteStandardLegalMoves, blackStandardLegalMoves);
     }
 
